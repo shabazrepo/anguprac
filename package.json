@@ -8,7 +8,13 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "install": "npm-git install",
+    "deploy:gh": "ng build --prod --base-href='https://github.com/shabazrepo/shabaz-angular2.git"
+  },
+  "gitDependencies": {
+    "private-package-name": "git@private.git.server:user/repo.git#revision",
+    "public-package-name": "https://github.com/user/repo.git#revision"
   },
   "private": true,
   "dependencies": {
@@ -23,6 +29,7 @@
     "@angular/router": "^5.0.0",
     "bootstrap": "^3.3.7",
     "core-js": "^2.4.1",
+    "npm-git-install": "^0.3.0",
     "rxjs": "^5.5.2",
     "zone.js": "^0.8.14"
   },
