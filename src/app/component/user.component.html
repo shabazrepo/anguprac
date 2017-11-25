@@ -1,0 +1,17 @@
+
+
+
+
+  <div id= "Header">	
+  <h3>Posts</h3>
+  </div>
+  <div *ngFor = "let post of Posts">
+
+<h3> {{post.id}}</h3>
+<h3> {{post.title}}</h3> 
+<h3> {{post.completed}}</h3> <h3> {{post.userID}}</h3> <h3> {{post.postId}}</h3> 
+  </div>
+	<footer class="site-footer" ng-show="showFooter">
+		    <div class="copyright">Copyright &copy; 2016 - <a>Bootstrap Admin Theme</a></div>
+		</footer>	
+

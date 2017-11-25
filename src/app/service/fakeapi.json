@@ -1,0 +1,48 @@
+ [{
+      "id": 21,
+      "orgName": "Hexistech Inc",
+      "description": "Hexistech Inc des",
+      "email": "raj.p@aitacs.com",
+      "phone": "222222",
+      "fax": "222",
+      "website": null,
+      "companyLogo": null,
+      "addressmasters": [],
+      "users": [],
+      "assetstates": [],
+      "assetmodels": [],
+      "organizationBranchDetailses": [
+        {
+          "id": null,
+          "organizationDetailsVO": null,
+          "branchName": "Hyderabad",
+          "description": null,
+          "email": null,
+          "phone": null,
+          "fax": null,
+          "website": null,
+          "users": [
+            {
+              "id": null,
+              "organizationBranchDetailsVO": null,
+              "workstationVO": null,
+              "organizationDetailsVO": null,
+              "assetDetailsVO": null,
+              "name": null,
+              "role": null,
+              "phone": null,
+              "email": "nages1h@aitacs.com",
+              "password": "password",
+              "usertypeId": null
+            }
+          ],
+          "addressmasters": [],
+          "orgDepartmentses": [],
+          "assetDetailses": [],
+          "workstations": []
+        }
+      ],
+      "assettypes": [],
+      "categories": []
+    }
+  ]
